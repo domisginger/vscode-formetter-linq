@@ -2,6 +2,9 @@
   "name": "formatter-linq",
   "displayName": "formatter-linq",
   "description": "Format LINQ Statements not part of larger C# code blocks",
+  "repository": {
+    "url": "https://github.com/domisginger/vscode-formetter-linq"
+  },
   "publisher": "Goldsworthy-Slatford",
   "version": "0.0.1",
   "engines": {
