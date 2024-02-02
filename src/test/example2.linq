@@ -1,0 +1,1 @@
+InpatientSpell.Any(DischargedDateTime == null && LogicallyDeleted == false && Wardstay.Any(EndDateTime == null && LogicallyDeleted == false && Fkward.Code.StartsWith("AA")) && AttributeDefinitionValue.Any((FkattributeDefinition.Code == "MTC" || FkattributeDefinition.Code == "MT") && EndDateTime == Null))

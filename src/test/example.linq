@@ -1,0 +1,1 @@
+PatientStatus.Any(EndDateTime == null && ( LookUpCode.MainCode == "FFD" )) && InpatientSpells.Any(DischargedDateTime == null && LogicallyDeleted == false || Wardstays.Any(EndDateTime == null && LogicallyDeleted == false && Ward.Code.StartsWith("AA")))
